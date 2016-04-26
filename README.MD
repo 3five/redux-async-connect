@@ -1,6 +1,6 @@
 ReduxAsyncConnect for React Router
 ============
-[![npm version](https://img.shields.io/npm/v/redux-async-connect.svg?style=flat-square)](https://www.npmjs.com/package/redux-async-connect)
+*forked from [Rezonans/redux-async-connect](https://github.com/Rezonans/redux-async-connect)*
 
 How do you usually request data and store it to redux state?
 You create actions that do async jobs to load data, create reducer to save this data to redux state, 
@@ -18,7 +18,7 @@ Another stores your data to redux state and connect your loaded data to your con
 
 Using [npm](https://www.npmjs.com/):
 
-    $ npm install redux-async-connect
+    $ npm install redux-async-connect-3five
 
 ```js
 import { Router, browserHistory } from 'react-router';

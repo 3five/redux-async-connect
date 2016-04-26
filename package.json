@@ -1,6 +1,6 @@
 {
-  "name": "redux-async-connect",
-  "version": "1.0.0-rc4",
+  "name": "redux-async-connect-3five",
+  "version": "1.0.0",
   "description": "It allows you to request async data, store them in redux state and connect them to your react component.",
   "main": "lib/index.js",
   "repository": {
@@ -29,8 +29,10 @@
   "homepage": "https://github.com/Rezonans/redux-async-connect",
   "dependencies": {
     "react": "^15.0.1",
-    "react-router": "2.x.x",
-    "react-redux": "4.x.x"
+    "react-dom": "^15.0.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.3.0",
+    "redux": "^3.5.2"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",
@@ -57,9 +59,6 @@
     "karma-webpack": "^1.7.0",
     "mocha": "^2.0.1",
     "pretty-bytes": "^2.0.1",
-    "react": "^0.14.2",
-    "react-dom": "^0.14.2",
-    "react-router": "2.0.0-rc5",
     "rimraf": "^2.4.2",
     "webpack": "^1.12.6",
     "webpack-dev-middleware": "^1.2.0",
